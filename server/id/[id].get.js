@@ -1,4 +1,4 @@
-// server/api/drive-proxy/[id].get.js
+// server/id/[id].get.js
 import axios from 'axios';
 
 export default defineEventHandler(async (event) => {
@@ -16,4 +16,4 @@ export default defineEventHandler(async (event) => {
     });
   }
 });
-// http://localhost:3000/api/drive/1F9qp1lez5WXEp6XpIIuhVnKF_ptMITUV
+// http://localhost:3000/id/1F9qp1lez5WXEp6XpIIuhVnKF_ptMITUV
